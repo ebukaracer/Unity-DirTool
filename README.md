@@ -1,7 +1,9 @@
 # DirTool
 [![](https://img.shields.io/badge/PRs-welcome-blue)](http://makeapullrequest.com) [![License: MIT](https://img.shields.io/badge/License-MIT-blue)](https://github.com/ebukaracer/ebukaracer/blob/ebukaracer-resources/LICENSE.md)
 
-![DirTool Editor.png](https://github.com/ebukaracer/ebukaracer/blob/ebukaracer-resources/DirTool-Images/Screenshot%202024-08-06%20105102.png)
+- Handles project folder creation and deletion with ease inside the Unity editor.
+
+	![DirToolEditorWin.png](https://github.com/ebukaracer/ebukaracer/blob/ebukaracer-resources/DirTool-Images/DirToolEditorWin.png)
 
 ## Installation
 A detailed guide can be found: [here](https://github.com/ebukaracer/EzUnityUtils/blob/main/INSTALLGUIDE.md#install-guide)
@@ -11,16 +13,19 @@ A detailed guide can be found: [here](https://github.com/ebukaracer/EzUnityUtils
 - Paste the `git URL` for this package: https://github.com/ebukaracer/Unity-DirTool.git 
 - Hit `Add`
 
-## Usage Guide
-*If the installation was successful, a menu option: `Racer -> DirTool` would appear immediately!*
+## Usage
 
-## Operations
+### Setup:
+*If the installation was successful, a menu option: `Racer > DirTool` would be available.*
+- Click on `Racer > DirTool > Menu` to lunch the Editor window for this package.
 
 #### Quick Create:
-- Handy dropdown option for quickly creating folders that were already supplied in the *Root-Directory* and *Sub-Directories* fields.
+`Racer > DirTool > Quick Create`
+- Handy dropdown option for quickly creating folders that were already supplied in the *Root-Directory* and *Sub-Directories* fields
 
 #### Remove package:
-- Handy dropdown option for quickly uninstalling this package without leaving any trace!
+`Racer > DirTool > Remove package`
+- Handy dropdown option for quickly uninstalling this package without leaving any trace! 
 
 #### Create [Directories]:
 - Creates a root-folder alongside nested sub-folders, using the *Root-Directory* and *Sub-Directories* fields supplied. The *Root-Directory* field can also contain nested directories by separating with slash symbol: `Project/root`
@@ -39,24 +44,22 @@ A detailed guide can be found: [here](https://github.com/ebukaracer/EzUnityUtils
 - If you supplied: `Projects/`, this process deletes the Root-Directory: `Projects/` along with any *Sub-Directories* it may contain. Hence terminating at `Assets/`
 - Therefore, you may leave the *Sub-Directories* field empty, since this operation focuses on deleting only the *Root-Directory*. It is impossible to delete `Assets/` directory ;)
 
-## Extras
-
 #### Create [ASMDEF]:
 - Creates an `asmdef file` in the path supplied at *Root-Directory* field.
 - If you intend to use a *custom path*, be sure to start with: `Assets/[your_desired_custom-path]`
 
 ---
 
-> [!NOTE]
-> 📌*The operations above can also be applied to already existing directories in your project.*
-> 
-> 📌*The deletion process is a destructive one, as such, check sure you're not mistakenly deleting folders containing important content.*
-> 
-> 📌*Ensure no slash symbol: `/\` terminates the Root-Directory field: `Project/Scripts/` but `Project/Script`.*
-> 
-> 📌*Few other commands available are backed-up with self-explanatory tool-tips in accordance with what they offer.*  
-> 
-> 📌*After removing this package, do well to delete `DirTool` folder located at: `Assets/DirTool`, or simply use the [`Remove package`](https://github.com/ebukaracer/Unity-DirTool/tree/main?tab=readme-ov-file#remove-package) menu option*
+##  Note for users
+> The operations above can also be applied to already existing directories in your project.
 
-## Contribution
-Feel free to open an `issue` If you discovered any bug or think something is missing.
+> Toggle on or off `Recursive delete`, to control how to delete parent directories containing nested directories or subdirectories.
+
+> Ensure no slash symbol: `/\` terminates the Root-Directory field: `Project/Scripts/` but `Project/Script`.
+
+> Few other commands available are backed-up with self-explanatory tool-tips in accordance with what they offer.
+
+> After removing this package, do well to delete `DirTool` folder located at: `Assets/DirTool`, or simply use the [`Remove package`](https://github.com/ebukaracer/Unity-DirTool/tree/main?tab=readme-ov-file#remove-package) menu option.
+
+## Contributing    
+Contributions are welcome! Please open an issue or submit a pull request.
