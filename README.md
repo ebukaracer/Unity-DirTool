@@ -2,8 +2,7 @@
 [![](https://img.shields.io/badge/PRs-welcome-blue)](http://makeapullrequest.com) [![License: MIT](https://img.shields.io/badge/License-MIT-blue)](https://github.com/ebukaracer/ebukaracer/blob/ebukaracer-resources/LICENSE.md)
 
 - Handles project folder creation and deletion with ease inside the Unity editor.
-
-	![DirToolEditorWin.png](https://github.com/ebukaracer/ebukaracer/blob/ebukaracer-resources/DirTool-Images/DirToolEditorWin.png)
+	<img src="https://github.com/ebukaracer/ebukaracer/blob/ebukaracer-resources/DirTool-Images/DT2.gif" alt="gif"/>
 
 ## Installation
 A detailed guide can be found: [here](https://github.com/ebukaracer/EzUnityUtils/blob/main/INSTALLGUIDE.md#install-guide)
@@ -16,8 +15,8 @@ A detailed guide can be found: [here](https://github.com/ebukaracer/EzUnityUtils
 ## Usage
 
 ### Setup:
-*If the installation was successful, a menu option: `Racer > DirTool` would be available.*
-- Click on `Racer > DirTool > Menu` to lunch the Editor window for this package.
+*If the installation was successful, a menu option: `Racer > DirTool` will be apear.*
+- Click on `Racer > DirTool > Menu` to lunch the Editor window.
 
 #### Quick Create:
 `Racer > DirTool > Quick Create`
@@ -46,9 +45,7 @@ A detailed guide can be found: [here](https://github.com/ebukaracer/EzUnityUtils
 
 #### Create [ASMDEF]:
 - Creates an `asmdef file` in the path supplied at *Root-Directory* field.
-- If you intend to use a *custom path*, be sure to start with: `Assets/[your_desired_custom-path]`
-
----
+- If you intend to use a *custom path*, start with: `Assets/[your_desired_custom-path]`
 
 ##  Note for users
 > The operations above can also be applied to already existing directories in your project.
