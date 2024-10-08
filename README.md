@@ -15,7 +15,7 @@ A detailed guide can be found: [here](https://github.com/ebukaracer/EzUnityUtils
 ## Usage
 
 ### Setup:
-*If the installation was successful, a menu option: `Racer > DirTool` will be apear.*
+*If the installation was successful, a menu option: `Racer > DirTool` will be available.*
 - Click on `Racer > DirTool > Menu` to lunch the Editor window.
 
 #### Quick Create:
@@ -52,7 +52,7 @@ A detailed guide can be found: [here](https://github.com/ebukaracer/EzUnityUtils
 
 > Toggle on or off `Recursive delete`, to control how to delete parent directories containing nested directories or subdirectories.
 
-> Ensure no slash symbol: `/\` terminates the Root-Directory field: `Project/Scripts/` but `Project/Script`.
+> Ensure no slash symbol: `/\` terminates the Root-Directory field: `Project/Scripts/` but `Project/Script`
 
 > Few other commands available are backed-up with self-explanatory tool-tips in accordance with what they offer.
 
